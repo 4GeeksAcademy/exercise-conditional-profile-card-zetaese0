@@ -37,16 +37,16 @@ function render(variables = {}) {
           <h2>${variables.role || "Web Developper"}</h2>
           <h3>${variables.city || "Miami"}, ${variables.country || "USA"}</h3>
           <ul class="${variables.socialMediaPosition}">
-            <li><a href="twitter.com/${
+            <li><a href="http://twitter.com/${
               variables.twitter
             }"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="github.com/${
+            <li><a href="http://github.com/${
               variables.github
             }"><i class="fab fa-github"></i></a></li>
-            <li><a href="linkedin.com/${
+            <li><a href="http://linkedin.com/${
               variables.linkedin
             }"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="instagram.com/${
+            <li><a href="http://instagram.com/${
               variables.instagram
             }"><i class="fab fa-instagram"></i></a></li>
           </ul>
